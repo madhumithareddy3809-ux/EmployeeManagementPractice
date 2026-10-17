@@ -13,3 +13,11 @@ Content-Type: application/json
 }
 
 ###
+PUT https://localhost:7145/api/employee/101
+Content-Type: application/json
+{
+  "employeeId": 101,
+  "name": "Madhu",
+  "department": "IT",
+  "salary": 90000
+}
