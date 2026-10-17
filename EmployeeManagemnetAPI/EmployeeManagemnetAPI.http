@@ -1,0 +1,15 @@
+@EmployeeManagemnetAPI_HostAddress =  https://localhost:7145
+
+GET {{EmployeeManagemnetAPI_HostAddress}}/
+Accept: application/json
+###
+POST https://localhost:7145/api/employee
+Content-Type: application/json
+{
+  "employeeId": 103,
+  "name": "anu",
+  "department": "HR",
+  "salary": 74000
+}
+
+###
