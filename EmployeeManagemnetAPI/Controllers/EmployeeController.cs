@@ -28,5 +28,12 @@ namespace EmployeeManagemnetAPI.Controllers
         {
             return Ok(e);
         }
+        [HttpPut("{id}")]
+        public IActionResult UpdateEmployee(int id, [FromBody] Employee e)
+        {
+            e.EmployeeId = id;
+            return Ok(e);
+        }
+
     }
 }
